@@ -15,6 +15,7 @@ public class UAS_PBO {
      */
     public static void main(String[] args) {
         mainFrame home = new mainFrame();
+        home.setVisible(true);
         home.setTitle(" Acumalaka Eatery and Baverage");
     }
     
