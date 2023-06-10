@@ -13,11 +13,5 @@ class IDGenerator {
     private int userIdCounter = 1;
 
     // Generate a member ID with a specific prefix
-    public String generateID(String prefix) {
-        String memberID = prefix + memberIdCounter;
-        memberIdCounter++;
-        return memberID;
-    }
-
-    
+   
 }
