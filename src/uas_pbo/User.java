@@ -10,15 +10,34 @@ import static uas_pbo.DBConnector.*;
  * @author User
  */
     public class User {
-    private static int user_id = 0;
-    private String phone;
-    String name;
-    private String password;
-    private int point;
+    private int user_id = 0;
+    private int memberIdCounter = 1;
+    private int userIdCounter = 1;
 
-    public User(String phone,String name, String password){
-        this.phone = phone;
+    String name;
+
+    public void addUser(String phone,String name, String password){
+        this.user_id = this.user_id++;
         this.name = name;
-        this.password = password;
     }
+    
+    public class Member{ 
+            private String member_id;
+            private String password;
+            private String phone;
+            private int point;
+            
+            public void setMemberID(){ 
+                this.member_id = generateID("M");
+            }
+        public String generateID(String prefix) {
+               String memberID = prefix + memberIdCounter;
+               memberIdCounter++;
+               return memberID;
+           }
+
+    
+        
+    }
+    
 }
