@@ -14,9 +14,9 @@ public class UAS_PBO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        mainFrame home = new mainFrame();
-        home.setVisible(true);
-        home.setTitle(" Acumalaka Eatery and Baverage");
+        mainFrame homeForm = new mainFrame();
+        homeForm.setVisible(true);
+        homeForm.setTitle("Acumalaka Eatery and Baverage");
     }
     
 }

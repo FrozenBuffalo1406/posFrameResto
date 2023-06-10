@@ -5,11 +5,9 @@
         <group>
             <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/menuFrame.java</file>
             <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/registerFrame.java</file>
+            <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/DBConnector.java</file>
             <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/mainFrame.java</file>
-            <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/qrisTransactionFrame.java</file>
-            <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/loginFrame.java</file>
             <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/purchaseFrame.java</file>
-            <file>file:/D:/__LAB/PraktekPBO/UAS_PBO/UAS_PBO/src/uas_pbo/historyFrame.java</file>
         </group>
     </open-files>
 </project-private>
